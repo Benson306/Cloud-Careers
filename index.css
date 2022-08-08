@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    top: 0;
+}
+nav{
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size:medium;
+}
+nav ul li a:hover{
+    color: red;
+}
+.leftNav{
+    width: 30%;
+    margin-right: 20%;
+}
+.rightNav{
+    display: flex;
+    width: 60%;
+}
+.landing{
+    margin-top: 50px;
+    background-image: url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    
+}
+.landingText{
+    color: white;
+    font-size: 50px;
+    padding: 190px;
+    font-family:'Times New Roman', Times, serif;
+    line-break:strict;
+}
