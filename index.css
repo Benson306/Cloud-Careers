@@ -97,11 +97,13 @@ nav ul li a:hover{
     background-color: black;
     color: gray;
     padding: 10px;
+    text-align: center;
 }
 .address{
     display: flex;
     width: 100%;
     color: white;
+    text-align: left;
 }
 .desc{
     width: 25%;
@@ -110,7 +112,7 @@ nav ul li a:hover{
 }
 .addr{
     width: 25%;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 .social{
     width: 25%;
@@ -122,3 +124,9 @@ nav ul li a:hover{
     font-size: larger;
     font-weight: bolder;
 }
+hr{
+        border: 0;
+        height: 0.5px;
+        background: lightgrey;
+        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
