@@ -49,3 +49,52 @@ nav ul li a:hover{
     font-family:'Times New Roman', Times, serif;
     line-break:strict;
 }
+.landingText button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border:0.5px solid gray;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 20%;
+    border-radius: 25px;
+    padding: 18px;
+    float: right;
+    margin-right: 20%;
+}
+.landingText button:hover{
+    background-color: maroon;
+    border: 1px solid maroon;
+}
+.landingText button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.aboutUs{
+    background-color: lightgray;
+    padding: 40px;
+}
+.aboutUsTitle{
+    color: Red;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutUsBody{
+    display: flex;
+}
+.aboutText{
+    width: 60%;
+    font-size: larger;
+    line-height: 1.7em;
+}
+.aboutImg{
+    width: 30%;
+}
+.footer{
+    background-color: black;
+    color: gray;
+    padding: 10px;
+}
