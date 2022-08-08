@@ -98,3 +98,27 @@ nav ul li a:hover{
     color: gray;
     padding: 10px;
 }
+.address{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.desc{
+    width: 25%;
+    margin-right: 5%;
+    margin-right: 5%;
+}
+.addr{
+    width: 25%;
+    margin-right: 5%;
+}
+.social{
+    width: 25%;
+}
+.addrTitle{
+    border-bottom: 2px solid darkred;
+    border-bottom-width:2px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
