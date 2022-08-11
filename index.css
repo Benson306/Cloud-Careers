@@ -7,6 +7,7 @@ nav{
     position: fixed;
     height: 50px;
     background-color: white;
+    border-bottom: 0.5px solid lightgray;
 }
 nav ul{
     display: flex;
@@ -30,12 +31,31 @@ nav ul li a:hover{
     width: 100%;
     display: flex;
 }
+#menu{
+    visibility: visible;
+}
 .rightNav{
     width: 0%;
     visibility: hidden;
 }
-.landing{
+.drop{
+    visibility: hidden;
     margin-top: 50px;
+    transition: ease-in-out 0.5s;
+    height: 0px;
+}
+.drop li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 0.2px solid lightgray;
+}
+.drop li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.landing{
+    margin-top: 0px;
     background-image: url("./images/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +121,6 @@ nav ul li a:hover{
     color: gray;
     padding: 10px;
     text-align: center;
-    bottom: 0;
 }
 .address{
     display: block;
@@ -178,13 +197,16 @@ nav ul li a:hover{
     width: 25%;
     margin-right: 15%;
 }
+#menu{
+    visibility: hidden;
+}
 .rightNav{
     display: flex;
     width: 60%;
     visibility: visible;
 }
 .landing{
-    margin-top: 50px;
+    margin-top: 0px;
     background-image: url("./images/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
