@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    top: 0;
+}
+nav{
+    background-color: darkblue;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+    padding: 5px;
+    margin-right: 5%;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#banner{
+    background-image: url("/images/background.jpg");
+    color: white;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    font-size: 40px;
+    width: 60%;
+    margin-left: 20%;
+}
+.bannerBtn button{
+    background-color: transparent;
+    color: white;
+    padding: 18px;
+    border-radius: 25px;
+    margin-left: 60%;
+    width: 15%;
+    border: 0.2px solid gray;
+    font-size: medium;
+}
+.bannerBtn button:hover{
+    background-color: maroon;
+}
+
+.about{
+    display: flex;
+
+    background-color: lightgray;
+    padding: 15px;
+}
+.footer{
+    display: flex;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.desc{
+    width: 25%;
+    margin-right: 5%;
+    padding: 10px;
+    line-height: 1.6em;
+}
+.addr{
+    width: 25%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.contacts{
+    width: 25%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.title{
+    border-bottom: 2px solid maroon;
+    font-size: large;
+}
+hr{
+    height: 0.5px;
+    background: white;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.copy{
+    background-color: black;
+}
+.copyright{
+    margin-left: 10%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+.shadow{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.drop{
+    height: 0;
+    visibility: hidden;
+    transition: ease-in-out 0.5s;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.drop li{
+    list-style: none;
+    padding: 5px;
+}

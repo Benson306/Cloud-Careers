@@ -20,14 +20,3 @@ menu.onclick = function(){
     }
     
 }
-
-// let togg = document.querySelector("#togg");
-// togg.onclick = function(){
-//     console.log(123);
-
-//     // let div = document.querySelector(".drop");
-//     // div.style.visibility = 'hidden';
-//     // div.style.height = '0px';
-
-    
-// }
