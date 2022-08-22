@@ -1,12 +1,16 @@
 *{
     margin: 0;
     top: 0;
+    box-sizing: border-box;
 }
-body{
-    /* height: 100vh; */
+html{
+    margin: 0;
+    height: 0;
 }
+
 .body{
     width: 100%;
+    min-height: calc(100vh - 350px);
 }
 
 nav{
@@ -144,6 +148,7 @@ nav ul li a:hover{
     /* height: 350px; */
     margin-bottom: 0%;
     bottom: 0;
+    font-size: small;
     
 }
 .address{
@@ -156,9 +161,8 @@ nav ul li a:hover{
     width: 0%;
     height: 0px;
     margin-right: 5%;
-    margin-right: 5%;
-    padding: 10px;
-    line-height: 1.5em;
+    padding: 0px;
+    line-height: 0em;
     font-family: 'Times New Roman', Times, serif;
     visibility: hidden;
 }
@@ -181,7 +185,27 @@ hr{
         height: 0.5px;
         background: lightgrey;
         background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    }
+}
+.top{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.card{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-bottom: 1%;
+}
+.cardHeader{
+    padding: 5px;
+    font-size: larger;
+    color: darkblue;
+}
+.cardBody{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
     @media only screen and (min-width: 758px){
         *{
@@ -292,7 +316,6 @@ hr{
             background-color: lightgray;
             padding: 40px;
             height: 320px;
-            /* width: 100%; */
         }
         .aboutUsTitle{
             color: Red;
@@ -321,8 +344,7 @@ hr{
             color: gray;
             padding: 10px;
             text-align: center;
-            /* width: 100%; */
-            /* height: 350px; */
+            font-size: medium;
             
         }
         .address{
@@ -447,7 +469,7 @@ nav ul li a:hover{
 .aboutUs{
     background-color: lightgray;
     padding: 40px;
-    height: 280px;
+    height: 350px;
 }
 .aboutUsTitle{
     color: Red;
@@ -477,6 +499,7 @@ nav ul li a:hover{
     padding: 10px;
     text-align: center;
     bottom: 0 !important;
+    font-size: medium;
 }
 .address{
     display: flex;
