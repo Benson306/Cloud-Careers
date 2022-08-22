@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +7,33 @@
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
+    <div class="body">
+
     <nav>
         <ul>
             <div class="leftNav">
-                <li style="padding: 0; margin-right:55%;"><a href="index.html"><img src="./images/cloud (1).png" alt="" width="50px" style="top: 0;"></a></li>
+                <li style="padding: 0; margin-right:77%;"><a href="index.html"><img src="./images/cloud (1).png" alt="" width="50px" style="top: 0;"></a></li>
                 <li id="menu"><img src="./images/menu.png" alt="" width="30px"></li>
             </div>
             <div class="rightNav">
                 <li><a href="index.html" style="color:red;">Home</a></li>
                 <li><a href="">Careers</a></li>
                 <li><a href="">Certifications</a></li>
-                <li><a href="#aboutUs">About Us</a></li>
+                <li id="togg"><a href="#aboutUs">About Us</a></li>
                 <li><a href="#social">Contact Us</a></li>
             </div>
         </ul>
+        <br>
+        <div class="drop">
+            <ul>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Certifications</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#social">Contact Us</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="drop">
-        <ul>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Certifications</a></li>
-            <li><a href="#aboutUs">About Us</a></li>
-            <li><a href="#social">Contact Us</a></li>
-        </ul>
-    </div>
+    
     <div class="landing">
         
         <div class="landingText">
@@ -54,16 +58,24 @@
             <div class="aboutText">
                 We strive to provide our students with an individualized education through comprehensive, innovative and high-quality professional education programs that prepare them for challenging careers in a rapidly growing industry.
             </div>
+            <br>
             <div class="aboutImg">
-                <img src="./images/learn.jpg" width="426px" height="240px" alt="">
+                <img src="./images/learn.jpg" id='abtImg' alt="">
             </div>
             
         </div>
     </div>
     <br>
+    </div>
+<br>
+    <div id="social">
+
+    </div>
+    <br>
+    <br>
     
     <div class="footer">
-        <div class="address">
+        <div  class="address">
             <div class="desc">
                 <img src="./images/cloud (1).png" alt="" width="70px" style="top: 0;">
                 <br>
@@ -88,7 +100,7 @@
                 <img src="./images/clock.png" width="18px" alt=""> 08.30 - 17.00 Hrs
 
             </div>
-            <div id="social" class="social">
+            <div  class="social">
                 <br>
                 <br>
                 <br>
@@ -114,9 +126,7 @@
         <br>
         Copyright 2022 KimTech Solutions. All Rights Reserved.
         <br>
-        <br>
     </div>
     <script src="index.js"></script> 
 </body>
-
 </html>

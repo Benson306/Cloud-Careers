@@ -7,9 +7,10 @@ menu.onclick = function(){
 
     if (clicked === true){
         
-        div.style.visibility = 'visible';
+        
         div.style.height = '115px';
-
+        div.style.visibility = 'visible';
+        
         clicked = false;
     }else if(clicked === false){
         div.style.visibility = 'hidden';
@@ -17,5 +18,16 @@ menu.onclick = function(){
         
         clicked = true;
     }
+    
+}
+
+let togg = document.querySelector("#togg");
+togg.onclick = function(){
+    console.log(123);
+
+    // let div = document.querySelector(".drop");
+    // div.style.visibility = 'hidden';
+    // div.style.height = '0px';
+
     
 }
